@@ -1,0 +1,45 @@
+
+.kop-imgA {
+    background-image: url(images/blackpearl4.jpg);
+    opacity: 0.75;
+}
+.kop-imgA::before {
+    background-image: url(images/blackpearl4.jpg);   
+}
+.kop-imgA::after {
+    background-image: url(images/blackpearl4.jpg);   
+}
+
+.cont-films {
+    height: 312.5rem;
+    font-size: 1.25rem;
+    background-image: url(images/jack-background-2.jpg);
+    text-shadow: 0 0 5px black;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 37.5rem auto;
+}
+.cont-films .films-text-main {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+}
+.cont-films .films-text-1  {
+    width: 100%;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    margin-left: 10%;    
+}
+.cont-films .films-text-2  {
+    width: 75%;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    margin-left: 15%;    
+}
+
+.cont-films .personages {
+    font-size: 2rem;
+    color: antiquewhite;
+    margin-left: 0;
+    text-align: left;
+    text-shadow: 2.5px -2.5px 5px black, -5px 5px 2.5px rgba(255, 0, 0, 0.75);     
+}

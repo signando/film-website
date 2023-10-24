@@ -1,0 +1,243 @@
+
+html, body {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: serif, Verdana, Geneva, Tahoma;
+    color: whitesmoke;
+    background-color: black;
+    position: relative;
+}
+
+.BG-nav-div {
+    width: 100%;
+    height: 17.5rem;
+    background-image: url(images/red-flag.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0%;
+    right: 5%;
+    z-index: 100;
+}
+.BG-nav-div::before {
+    width: 100%;
+    height: 17.5rem;
+    margin: 0 auto;
+    background-image: url(images/red-flag.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -1.5rem;
+    left: 2%;
+    content: " ";  
+}
+.BG-nav-div::after {
+    width: 100%;
+    height: 17.5rem;
+    margin: 0 auto;
+    background-image: url(images/red-flag.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-bottom: 1.25em dashed black;
+    position: absolute;
+    bottom: -3rem;
+    left: 4.25%;
+    content: " ";  
+}
+.nav-div {
+    position: absolute;
+    top: 5rem;
+    left: 10%;
+    z-index: 1;
+}
+.nav-links {
+    font-size: 2rem;
+    font-family: sans-serif, Verdana, Geneva, Tahoma;
+    margin-right: 1em;
+    padding: 0.25em 0.5em;
+    border: 0.1em solid black;
+    border-left: 0.3em solid black;
+    border-bottom: 0.15 solid black;
+    border-radius: 50px;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.75);
+    text-shadow: 0 0 0.05em rgba(0, 0, 0);
+}
+.nav-links:hover, .nav-links:focus {
+    color: red;
+    box-shadow: 0 0 1em 1em rgba(245, 245, 245, 0.75);
+    transition: 1000ms ease;
+}
+.current-link {
+    color: whitesmoke;
+    background-color: antiquewhite;
+    text-shadow: 0 0 0.1em black;  
+}
+
+.kop-imgA {
+    width: 80%;
+    height: 20rem;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-image: url(images/blackpearl.jpg);
+    background-size: 100% 100%;
+    border-left: 5px solid black;
+    border-bottom: 2.5px solid black;
+    position: relative;
+    opacity: 0.75;
+}
+.kop-imgA::before {
+    width: 100%;
+    height: 20rem;
+    border-radius: 20px;
+    background-image: url(images/blackpearl.jpg);
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: -2.5rem;
+    left: 2.5%;
+    content: " ";
+    border-left: 5px solid black;
+    border-bottom: 2.5px solid black;
+}
+.kop-imgA::after {
+    width: 100%;
+    height: 20rem;
+    border-radius: 20px;
+    background-image: url(images/blackpearl.jpg);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 5rem;
+    left: 5.1%;
+    content: " ";
+    border-left: 5px solid black;
+    border-bottom: 2.5px solid black;
+}
+
+.cont-films {
+    width: 85%;
+    height: 96rem;
+    margin: 0 auto;
+    margin-top: 17.5rem;
+    padding-top: 5rem;
+    background-image: url(images/book-page-cover.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 2.7em 3.1em black;
+    position: relative;
+}
+
+.cont-films h1 {
+    text-align: center;
+    margin-top: 6rem;
+    font-size: 5rem;
+    color: rgba(26, 250, 6, 0.15);
+    background-image: url(images/blackpearl.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-shadow: 0.1em -0.05em 0.025em rgb(58, 1, 1);
+    opacity: 1;
+}
+.cont-films .h1-span {
+    font-size: 4rem;
+    text-shadow: 0.1em -0.05em 0.005em rgb(5, 5, 5);
+
+}
+
+.films-text {
+    width: 90%;
+    font-size: 1.25rem;
+    color: antiquewhite;
+    text-shadow: 0 0 2.5px black;
+    position: absolute;
+    top: 46rem;
+    left: 5%;
+}
+
+
+
+
+.table-home {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 3rem;
+    background-image: url(images/jack-background-2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 2.7em 3.1em black;
+    padding-bottom: 5rem;
+    opacity: 0.9;
+}
+.table-home h1, h2 {
+    font-size: 2rem;
+    margin-left: 6%;
+    text-shadow: 2.5px -2.5px 5px black, -5px 5px 2.5px rgba(255, 0, 0, 0.75);
+}
+.table-home table {
+    font-size: 1.25rem;
+    margin-left: 6%;
+    border: 2.5px solid rgb(255, 203, 136);
+    border-left: 10px solid rgb(255, 203, 136);
+    border-bottom: 5px solid rgb(255, 203, 136);
+    border-radius: 5px;
+}
+.table-home table th, td {
+    border: 1.25px solid rgb(255, 203, 136);
+    border-left: 5px solid rgb(255, 203, 136);
+    border-bottom: 2.5px solid rgb(255, 203, 136);
+    background: linear-gradient(to bottom, rgba(253, 143, 0, 0.65), rgba(0, 128, 0, 0.65));
+    padding: 0.05em 0.25em;
+    text-shadow: 0 0 2.5px black;   
+}
+
+
+
+
+.cont-empty-before-footer {
+    height: 10rem;
+}
+
+footer {
+    width: 85%;
+    height: 17.5rem;
+    margin: auto;
+    padding-top: 1rem;
+    background-image: url(images/black-sword-flag.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    /*bottom: 0;
+    left: 0;
+    right: 0;*/
+}
+.foot {
+    width: 100%;
+    height: 17.5rem;
+    padding-top: 1rem;
+    background: radial-gradient(ellipse, transparent 5%, black 75%);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.foot p:first-of-type {
+    text-align: center;
+    margin-top: 15em;
+    margin-bottom: 0.25em;
+    opacity: 0.7;
+}
+.foot p:last-of-type {
+    text-align: center;
+    margin-top: 0;
+    opacity: 0.7;
+}
+.foot p span {
+    color: rgb(255, 203, 136);
+}

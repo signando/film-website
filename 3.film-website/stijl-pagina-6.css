@@ -1,0 +1,231 @@
+
+.kop-imgA {
+    background-image: url(images/blackpearl2.jpg);
+    background-size: 100% 102.5%;
+    opacity: 0.75;
+}
+.kop-imgA::before {
+    background-image: url(images/blackpearl2.jpg);
+    background-size: 100% 102.5%;   
+}
+.kop-imgA::after {
+    background-image: url(images/blackpearl2.jpg);
+    background-size: 100% 102.5%;   
+}
+
+.cont-films {
+    height: 355rem;
+    background-image: none;
+    background-color: black;
+}
+
+
+.cont-personages {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, auto);
+}
+
+.personages {
+    width: 95%;
+    height: 37.5em;
+    box-shadow:inset 0 0 1.8em 1.8em whitesmoke;
+    border-radius: 50px;
+    border-bottom: 0.6em dashed rgba(245, 245, 245, 0.99);
+    border-top: 0.45em dashed rgba(245, 245, 245, 0.99);
+    background-color: rgba(20, 0, 0, 1);
+}
+.personages:hover, .personages:focus {
+    transform: rotateY(360deg);
+    transition: 2500ms ease;
+    transition-delay: 500ms;
+    transition-property: initial;
+}
+.personages h2 {
+    font-size: 2em;
+    text-align: center;
+}
+.personages h2 span {
+    font-size: 0.5em;
+}
+.personages p {
+    font-size: 1em;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.foto-1 div {
+    width: 100%;
+    height: 20rem;
+    background-image: url(images/cpt-jack.jpg);
+    background-size: 100% 105%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.foto-2 {
+    margin-top: 6.5rem;
+}
+.foto-2 div {
+    width: 100%;
+    height: 20rem;
+    background-image: url(images/cpt-barbosa.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;   
+}
+.foto-3 {
+    margin-top: 13rem;
+}
+.foto-3 div {
+    width: 100%;
+    height: 20rem;
+    background-image: url(images/gibbs.jpg);
+    background-size: 100% 140%;
+    background-repeat: no-repeat;
+    background-position-y: center;   
+}
+
+.foto-4 div {
+    width: 100%;
+    height: 20rem;
+    background-image: url(images/cpt-will.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;   
+}
+.foto-5 {
+    margin-top: 6.5rem;
+}
+.foto-5 div {
+    width: 100%;
+    height: 20rem;
+    background-image: url(images/cpt-elizabeth.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;   
+}
+.foto-6 {
+    margin-top: 13rem;
+}
+.foto-6 div {
+    width: 100%;
+    height: 20rem;
+    background-image: url(images/james.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;   
+}
+
+.foto-7 div {
+    width: 100%;
+    height: 20rem;
+    background-image: url(images/swann.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.foto-8 {
+    margin-top: 6.5rem;
+}
+.foto-8 div {
+    width: 100%;
+    height: 20rem;
+    background-image: url(images/cpt-davy.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;   
+}
+.foto-9 {
+    margin-top: 13rem;
+}
+.foto-9 div {
+    width: 100%;
+    height: 20rem;
+    background-image: url(images/tia-dalma.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;   
+}
+
+.foto-10 div {
+    width: 100%;
+    height: 20rem;
+    background-image: url(images/cpt-saofeng.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;    
+}
+.foto-11 {
+    margin-top: 6.5rem;
+}
+.foto-11 div {
+    width: 100%;
+    height: 20rem;
+    background-image: url(images/marty.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;   
+}
+.foto-12 {
+    margin-top: 13rem;
+}
+.foto-12 div {
+    width: 100%;
+    height: 20rem;
+    background-image: url(images/pintel.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;   
+}
+
+.foto-13 div {
+    width: 100%;
+    height: 20rem;
+    background-image: url(images/ragetti.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.foto-14 {
+    margin-top: 6.5rem;
+}
+.foto-14 div {
+    width: 100%;
+    height: 20rem;
+    background-image: url(images/bill.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;  
+}
+.foto-15 {
+    margin-top: 13rem;
+}
+.foto-15 div {
+    width: 100%;
+    height: 20rem;
+    background-image: url(images/beckett.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;  
+}
+
+.foto-16 div {
+    width: 100%;
+    height: 20rem;
+    background-image: url(images/teague.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;  
+}
+.foto-17 {
+    margin-top: 6.5rem;
+}
+.foto-17 div {
+    width: 100%;
+    height: 20rem;
+    background-image: url(images/cpt-blackbeard.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;  
+}
+.foto-18 {
+    margin-top: 13rem;
+}
+.foto-18 div {
+    width: 100%;
+    height: 20rem;
+    background-image: url(images/cpt-salazar.jpg);
+    background-size: 100% 105%;
+    background-repeat: no-repeat;
+    background-position-y: center;  
+}
+
+.personages div {
+    height: 20em;
+}
